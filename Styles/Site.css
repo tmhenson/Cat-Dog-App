@@ -1,0 +1,11 @@
+﻿/*********/
+html {color:#444;font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 0.75em;}
+#right {float:left}
+
+.details table, .details table tr, .details table th, .details td {border: 1px solid #5f6062;padding: 5px;}
+.details table td:nth-child(odd) {background: #dcd9d3;}
+ @media print {
+    body { font-size: 10pt; width:100%;}
+    /*table {padding: 0px}*/
+    .noprint {display: none !important;
+  }
